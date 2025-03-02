@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="heading mb-4">
+            <nav class="navbar bg-light">
+                <div class="d-flex justify-content-between w-100">
+                    <a class="navbar-brand" href="#">
+                        <img src="https://cdn-icons-png.flaticon.com/128/717/717414.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+                        Instagram
+                    </a>
+                    <div>
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Create a post</button>
+                        <button type="button" class="btn btn-secondary" data-bs-toggle="dropdown" aria-expanded="false"><span class="bi bi-gear-fill"></span><span class="bi bi-caret-down-fill m-1" style="font-size: small;"></span></button>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Separated link</a></li>
+                        </ul>
+                    </div>  
+                </div>
+            </nav>
+        </div>
+        <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active " id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true"><span class="bi bi-grid-3x3-gap-fill"></span></button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><span class="bi bi-square-fill"></span></button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                <div class="row d-flex justify-content-center mb-4">
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://mbpschool.com/wp-content/uploads/2023/10/shutterstock_2252991631-scaled.jpg" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://www.elespectador.com/resizer/v2/DGC6QPGT75CO7PDE4VTN2TSZRA.jpeg?auth=657764fd12b2a1a450bdf6b51d12ef7018638c43694f61430019e72ea55fa2eb&width=920&height=613&smart=true&quality=60" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://stride.com.co/wp-content/uploads/2023/01/gabriel-heinzer-g5jpH62pwes-unsplash-1024x768.jpg" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://cdn.creatureandcoagency.com/uploads/2014/09/autumn-animals-hedgehogs.jpg" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://i.ytimg.com/vi/MFb7LCqm6FE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAbkn0l4y1MrrVdfa0Lb_Al-eURsA" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://ingeoexpert.com/wp-content/uploads/2020/04/antelope-canyon-845x633.jpg" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+
+                <div class="row d-flex justify-content-center mt-4">
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_1600/media/default/0001/05/30627f237982b80399f5d2db0c8daeeea38a5950.jpeg" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://img.redbull.com/images/c_crop,x_366,y_0,h_428,w_321/c_fill,w_450,h_600/q_auto:low,f_auto/redbullcom/2020/2/5/qpydtszov4x92cgnrlcy/revenant-apex-legends" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div class="col-4 col-md-3 col-lg-2 image-container" style="width: 280px; height: 280px; overflow: hidden;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYCNl09RIqGnnTTHNUnBwBsexTUGX0uQ-1FA&s" alt="Imagen 1" class="img-fluid" style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                <div class="container d-flex flex-column align-items-center">
+                    <div class="card mb-4" style="width: 700px;">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">My Crazy Dog</h5>
+                            <span class="text-muted">05/12</span>           
+                        </div>
+                        <img src="https://nfnatcane.es/blog/wp-content/uploads/2024/07/perro-jadeando.jpg" class="img-fluid" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div class="card-body">
+                            <p class="card-text">
+                            <strong>442 likes</strong><br>
+                            This is an exampe of an excelenet photo that you can post on Instagram 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-4" style="width: 700px;">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Camping</h5>
+                            <span class="text-muted">06/12</span>           
+                        </div>
+                        <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/Camping%2003.jpg?w=1900&h=1266" class="img-fluid" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div class="card-body">
+                            <p class="card-text">
+                            <strong>144 likes</strong><br>
+                            This is an exampe of an excelenet photo that you can post on Instagram 
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card mb-4" style="width: 700px;">
+                        <div class="card-header d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0"> Nature</h5>
+                            <span class="text-muted">07/12</span>           
+                        </div>
+                        <img src="https://images.squarespace-cdn.com/content/v1/5a86b05bcf81e0af04936cc7/1523519370129-QENVI7K32UTJ4P3G2UAQ/naturaleza-en-espana.jpg" class="img-fluid" alt="Imagen 1" style="width: 100%; height: 100%; object-fit: cover;">
+                        <div class="card-body">
+                            <p class="card-text">
+                            <strong>242 likes</strong><br>
+                            This is an exampe of an excelenet photo that you can post on Instagram 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create a new post</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <label for="formlabel" class="form-label">Caption:</label>
+                        <textarea class="form-control" id="formlabel" ></textarea>
+                        <div class="mt-3" >
+                            <span class="bi bi-camera border border-1 px-1"></span>
+                            <span class="bi bi-geo-alt border border-1 px-1"></span>
+                        </div>   
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Publish</button>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </div>
+</body>
+</html>
